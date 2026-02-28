@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iftar Dastarkhuwan — Etimad Foundation</title>
+  <meta name="description" content="Learn about Etimad Foundation's Iftar Dastarkhuwan program — feeding thousands during Ramadan in Lahore and Okara.">
+  <link rel="icon" type="image/svg+xml" href="../assets/monoetimaad.svg">
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="../index.html" class="logo-link">
+        <img src="../assets/etimadlogo.svg" alt="Etimaad Foundation Logo">
+      </a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../initiatives.html" class="active">Initiatives</a></li>
+          <li><a href="../donate.html">Donate</a></li>
+          <li><a href="../volunteer.html">Volunteer</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <h1 class="pink-accent fade-up">Iftar Dastarkhuwan</h1>
+    <p class="subtitle fade-up delay-1">Breaking bread together, building community.</p>
+  </section>
+
+  <!-- DETAIL CONTENT -->
+  <section class="section">
+    <div class="container">
+      <div class="initiative-detail">
+        <p class="detail-intro fade-up">
+          Our Iftar Dastarkhuwan is the heart of our Ramadan campaign. In 2025, we fed 
+          over <strong>15,000 people</strong> at community iftar tables across Lahore and Okara. 
+          This year, our goal is to serve <strong>25,000+ people</strong> — and with your 
+          support, we know we can get there.
+        </p>
+
+        <div class="detail-cost fade-up delay-1">
+          <span>Rs 250</span>
+          <small>Cost per Iftar Meal</small>
+        </div>
+
+        <h2 class="section-title" style="text-align:left; font-size:1.5rem; margin-bottom:24px;">What's on the Dastarkhuwan?</h2>
+
+        <div class="meal-grid fade-up delay-2">
+          <div class="meal-item">Dates</div>
+          <div class="meal-item">Rooh Afza</div>
+          <div class="meal-item">Bananas</div>
+          <div class="meal-item">Strawberries</div>
+          <div class="meal-item">Biryani</div>
+          <div class="meal-item">Pakora</div>
+        </div>
+
+        <div class="cta-banner fade-up delay-3">
+          <h2>Help Us Feed 25,000+ People</h2>
+          <p>Every Rs 250 provides a complete iftar meal for someone in need.</p>
+          <a href="../donate.html" class="btn btn-primary">Donate for Iftar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="../assets/etimadlogo.svg" alt="Etimaad Foundation" class="footer-logo">
+        <div class="footer-name">Etimad Foundation</div>
+        <p class="footer-slogan" style="font-family:'Noto Nastaliq Urdu',serif;">ایک قدم انسانیت کے نام</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="../initiatives.html">Initiatives</a></li>
+          <li><a href="../donate.html">Donate</a></li>
+          <li><a href="../volunteer.html">Volunteer</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Social</h4>
+        <a href="https://www.instagram.com/etimadfoundation/" target="_blank" rel="noopener" class="instagram-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          @etimaadfoundation
+        </a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>Ayyan Yasir<br><a href="tel:+923158657308" style="color:var(--pink-light)">+92 315 8657308</a></p>
+        <p style="margin-top:10px;">Abdul Wasay Tahir<br><a href="tel:+923314149999" style="color:var(--pink-light)">+92 331 4149999</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Etimad Foundation. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+    window.addEventListener('scroll', () => {
+      document.getElementById('siteHeader').classList.toggle('scrolled', window.scrollY > 10);
+    });
+  </script>
+</body>
+</html>
